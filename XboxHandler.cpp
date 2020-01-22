@@ -105,6 +105,12 @@ void XboxHandler::updateData() {
 
 }
 
+void XboxHandler::clear(){
+	L2Clicked = false;
+	R2Clicked = false;
+	buttonClickState = 0;
+}
+
 ///  Breaks for R2 since L2 and R2 both equal 0.
 boolean XboxHandler::isClicked(ButtonMaskEnum aButton) {
 

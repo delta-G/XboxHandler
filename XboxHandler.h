@@ -77,6 +77,7 @@ public:
 	void updateData();
 
 	boolean isClicked(ButtonMaskEnum);
+	void clear();
 	boolean isPressed(ButtonMaskEnum);
 	int16_t getHatValue(HatEnum);
 	uint8_t getTriggerValue(ButtonMaskEnum);
